@@ -1,17 +1,15 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { Header } from './components/Header';
-import { Main } from './components/Main';
+import { Home } from './pages/Home/Home';
+
 function App() {
 
     return (
         <>
         <Header />
-            <main>
-                <section className='main'>
-                    <Main />
-                </section>
-            </main>
+        <Home />
+        
         </>
     )
 }
